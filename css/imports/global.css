@@ -1,0 +1,37 @@
+@import "./variables.css";
+
+body {
+  background-color: var(--background-color);
+  color: var(--maintext-color);
+  font-family: var(--body-font-family);
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+header,
+h1,
+h2 {
+  font-family: var(--header-font-family);
+}
+
+header,
+footer {
+  background-color: var(--header-footer-color);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 370px;
+  height: auto;
+}
