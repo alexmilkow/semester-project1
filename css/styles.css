@@ -170,6 +170,7 @@ hr {
   width: 100%;
   max-height: 300px;
   object-fit: cover;
+  object-position: 40% 60%;
 }
 
 /*---------Main--------*/
@@ -202,6 +203,10 @@ hr {
     font-size: 36px;
   }
 
+  .special-events-header {
+    font-size: 30px;
+  }
+
   .container-button {
     margin: 40px auto 50px;
   }
@@ -215,6 +220,10 @@ hr {
     padding: 0px;
     max-width: 1800px;
     margin: 30px auto;
+  }
+
+  .block img {
+    max-height: 500px;
   }
 
   .block-paragraphs {
