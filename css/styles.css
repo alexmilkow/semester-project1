@@ -127,32 +127,59 @@ hr {
 /*---------Header and footer---------*/
 
 /*---------Main--------*/
-.hero p {
-  max-width: 1500px;
+.hero p,
+.about p {
+  max-width: 1800px;
 }
 
-.hero-img {
+.hero-img,
+.about-img {
   width: 100%;
-  max-height: 600px;
   object-fit: cover;
   border-radius: 10px;
   box-shadow: 0px 1px 4px rgb(0, 0, 0, 0.25);
 }
 
-.container-button {
+.hero-img {
+  max-height: 600px;
+}
+
+.about-img {
+  max-height: 300px;
+  object-position: 60% 40%;
+}
+
+.container-hero-button {
   text-align: center;
   margin: 20px auto 50px;
 }
 
-.hero-button {
+.container-about-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  text-align: center;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.hero-button,
+.about-buttons {
   display: inline-block;
   text-decoration: none;
   color: var(--text-button-color);
   background-color: var(--button-color);
   border-radius: 8px;
-  padding: 12px 70px;
   font-weight: 600;
   box-shadow: 0px 1px 4px rgb(0, 0, 0, 0.25);
+}
+
+.hero-button {
+  padding: 12px 70px;
+}
+
+.about-buttons {
+  padding: 12px 50px;
 }
 
 .button:hover {
@@ -217,12 +244,16 @@ hr {
     margin: 0;
   }
 
-  .container-button {
+  .container-hero-button {
     margin: 40px auto 50px;
   }
 
   .hero-button {
     padding: 12px 150px;
+  }
+
+  .container-about-buttons {
+    margin: 50px auto;
   }
 
   .block,
@@ -258,6 +289,10 @@ hr {
   .block:nth-child(3) img,
   .block:nth-child(5) img {
     order: 1;
+  }
+
+  .about-img {
+    max-height: 800px;
   }
 }
 
