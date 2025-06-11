@@ -1,5 +1,9 @@
 @import "imports/variables.css";
 
+html {
+  height: 100%;
+}
+
 body {
   background-color: var(--background-color);
   color: var(--maintext-color);
@@ -7,6 +11,7 @@ body {
   margin: 0px;
   display: flex;
   flex-direction: column;
+  min-height: 100%;
 }
 
 main {
@@ -97,6 +102,7 @@ nav,
 
 footer {
   padding: 40px;
+  margin-top: auto;
 }
 
 .footer-links-grid {
