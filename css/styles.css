@@ -27,11 +27,11 @@ main p {
 h1 {
   font-size: 32px;
   text-align: center;
-  margin-bottom: 10px;
+  margin: 20px auto 10px;
 }
 
 h2 {
-  width: 90%;
+  width: 85%;
   margin: 0px auto;
   padding: 0;
   font-size: 18px;
@@ -142,7 +142,7 @@ hr {
 .hero p,
 .about p,
 .visit p {
-  max-width: 1800px;
+  max-width: 85%;
 }
 
 .hero-img,
@@ -152,16 +152,14 @@ hr {
   object-fit: cover;
   border-radius: 10px;
   box-shadow: 0px 1px 4px rgb(0, 0, 0, 0.25);
+  display: block;
+  margin: 0 auto;
 }
 
 .hero-img,
+.about-img,
 .visit-img {
   max-height: 600px;
-}
-
-.about-img {
-  max-height: 300px;
-  object-position: 60% 40%;
 }
 
 .container-hero-button {
@@ -236,6 +234,9 @@ hr {
 .visit {
   padding: 40px 0;
 }
+.visit-info {
+  padding: 20px 0;
+}
 
 .visit-info p {
   margin-top: 0;
@@ -300,6 +301,19 @@ hr {
 
   h2 {
     font-size: 20px;
+    width: 75%;
+  }
+
+  .hero p,
+  .about p,
+  .visit p {
+    max-width: 75%;
+  }
+
+  .hero-img,
+  .about-img,
+  .visit-img {
+    width: 85%;
   }
 
   .special-events-header {
@@ -321,7 +335,7 @@ hr {
 
   .block,
   .block-vertical {
-    max-width: 1800px;
+    max-width: 1500px;
     margin: 30px auto;
   }
 
@@ -352,10 +366,6 @@ hr {
   .block:nth-child(3) img,
   .block:nth-child(5) img {
     order: 1;
-  }
-
-  .about-img {
-    max-height: 800px;
   }
 
   .visit-us-container {
