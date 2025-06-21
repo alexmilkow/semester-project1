@@ -93,6 +93,14 @@ nav a:hover {
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.9);
 }
 
+.open-icon {
+  display: inline;
+}
+
+.close-icon {
+  display: none;
+}
+
 nav,
 #nav-checkbox {
   display: none;
@@ -100,6 +108,14 @@ nav,
 
 #nav-checkbox:checked ~ nav {
   display: block;
+}
+
+#nav-checkbox:checked ~ label .open-icon {
+  display: none;
+}
+
+#nav-checkbox:checked ~ label .close-icon {
+  display: inline;
 }
 
 .hamburger i {
