@@ -274,6 +274,10 @@ hr {
   object-position: 20% 50%;
 }
 
+.visit-img {
+  object-position: 50% 10%;
+}
+
 .visit-us-container {
   max-width: 90%;
   margin: 20px auto 0px;
