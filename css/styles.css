@@ -348,6 +348,7 @@ hr {
   .container-about-buttons {
     grid-template-columns: 1fr 1fr;
     gap: 50px;
+    margin: 30px auto;
   }
 }
 
@@ -389,7 +390,7 @@ hr {
   }
 
   .container-about-buttons {
-    margin: 50px auto;
+    margin: 40px auto;
   }
 
   .block {
