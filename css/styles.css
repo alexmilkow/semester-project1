@@ -418,6 +418,8 @@ hr {
 
   .block img {
     max-height: 500px;
+    width: 50%;
+    object-fit: cover;
   }
 
   .block-vertical img {
@@ -427,7 +429,8 @@ hr {
   .block-paragraphs {
     display: block;
     flex-direction: column;
-    padding: 15px 0;
+    padding: 15px;
+    width: 50%;
   }
 
   .block:nth-child(3) p,
