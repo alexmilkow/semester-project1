@@ -145,9 +145,23 @@ footer {
 
 footer img {
   display: block;
-  width: 200px;
+  width: 40px;
   height: auto;
   margin: 20px auto;
+}
+
+.youtube {
+  width: 50px;
+  height: auto;
+}
+
+.socials {
+  display: flex;
+  width: 150px;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin: 0px auto;
 }
 
 hr {
@@ -475,6 +489,12 @@ hr {
 
   .footer-links-grid p {
     margin: 0px;
+  }
+
+  .socials {
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px 0;
   }
 }
 /*---------Media queries footer---------*/
