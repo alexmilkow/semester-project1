@@ -259,17 +259,17 @@ hr {
 .block img,
 .block-vertical img {
   width: 100%;
-  max-height: 300px;
+  max-height: 400px;
   object-fit: cover;
   object-position: 40% 60%;
 }
 
 .aeronautics img {
-  object-position: 90% 10%;
+  object-position: 10%;
 }
 
 .night img {
-  object-position: 33% 67%;
+  object-position: 10% 70%;
 }
 
 .ai img {
@@ -277,11 +277,11 @@ hr {
 }
 
 .evolution img {
-  object-position: 40% 30%;
+  object-position: 30% 30%;
 }
 
 .biology img {
-  object-position: 90% 40%;
+  object-position: 100% 40%;
 }
 
 .internships img {
@@ -417,8 +417,8 @@ hr {
   }
 
   .block img {
-    max-height: 500px;
-    width: 30%;
+    min-height: 550px;
+    width: 40%;
     object-fit: cover;
   }
 
@@ -430,7 +430,7 @@ hr {
     display: block;
     flex-direction: column;
     padding: 15px;
-    width: 70%;
+    width: 60%;
   }
 
   .block:nth-child(3) p,
