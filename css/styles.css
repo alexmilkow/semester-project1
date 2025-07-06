@@ -165,7 +165,7 @@ footer img {
 }
 
 hr {
-  color: #ca1de6;
+  border: solid 1px #ca1de6;
 }
 
 .copyright {
