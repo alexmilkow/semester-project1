@@ -265,7 +265,7 @@ hr {
 }
 
 .aeronautics img {
-  object-position: 10%;
+  object-position: 50% 0%;
 }
 
 .night img {
@@ -416,10 +416,25 @@ hr {
     display: flex;
   }
 
-  .block img {
-    min-height: 550px;
+  .small-img img,
+  .big-img img,
+  .medium-img img {
     width: 40%;
     object-fit: cover;
+  }
+
+  .small-img img {
+    min-height: 350px;
+    max-height: 400px;
+  }
+
+  .medium-img img {
+    min-height: 420px;
+    max-height: 500px;
+  }
+
+  .big-img img {
+    min-height: 550px;
   }
 
   .block-vertical img {
