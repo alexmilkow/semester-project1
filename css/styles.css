@@ -455,14 +455,8 @@ hr {
     width: 60%;
   }
 
-  .block:nth-child(3) p,
-  .block:nth-child(5) p {
-    order: 2;
-  }
-
-  .block:nth-child(3) img,
-  .block:nth-child(5) img {
-    order: 1;
+  .block:nth-of-type(even) {
+    flex-direction: row-reverse;
   }
 
   .container-about-buttons {
