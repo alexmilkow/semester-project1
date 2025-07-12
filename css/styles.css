@@ -123,6 +123,12 @@ nav,
   cursor: pointer;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  overflow: hidden;
+}
+
 .current {
   font-weight: bold;
   text-decoration: underline;
@@ -169,7 +175,7 @@ hr {
 }
 
 .copyright {
-  color: #61686e;
+  color: #464748;
   margin: 40px 0px 0px;
 }
 /*---------Header and footer---------*/
