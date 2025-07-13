@@ -424,6 +424,7 @@ hr {
 
   .container-about-buttons {
     margin: 40px auto;
+    width: 60%;
   }
 
   .block {
