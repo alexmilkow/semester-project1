@@ -181,7 +181,7 @@ hr {
 }
 /*---------Header and footer---------*/
 
-/*---------Main--------*/
+/*---------Body--------*/
 .hero p,
 .about p {
   max-width: 90%;
@@ -334,7 +334,7 @@ hr {
   display: block;
 }
 
-/*---------Main--------*/
+/*---------Body--------*/
 
 /*---------Media queries header---------*/
 @media (min-width: 1150px) {
@@ -353,7 +353,7 @@ hr {
 }
 /*---------Media queries header---------*/
 
-/*---------Media queries main--------*/
+/*---------Media queries body--------*/
 
 @media (min-width: 750px) {
   .block,
@@ -401,12 +401,6 @@ hr {
   .hero p,
   .about p {
     max-width: 60%;
-  }
-
-  .hero-img,
-  .about-img,
-  .visit-img {
-    width: 100%;
   }
 
   .special-events-header {
@@ -494,7 +488,7 @@ hr {
   }
 }
 
-/*---------Media queries main--------*/
+/*---------Media queries body--------*/
 
 /*---------Media queries footer---------*/
 @media (min-width: 1150px) {
@@ -524,8 +518,6 @@ hr {
   }
 
   .socials {
-    justify-content: center;
-    align-items: center;
     margin: 0 20px 0;
   }
 }
