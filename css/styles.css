@@ -95,10 +95,12 @@ nav a:hover {
 
 .open-icon {
   display: inline;
+  font-size: 40px;
 }
 
 .close-icon {
   display: none;
+  font-size: 45px;
 }
 
 nav,
@@ -119,7 +121,6 @@ nav,
 }
 
 .hamburger i {
-  font-size: 40px;
   cursor: pointer;
 }
 
