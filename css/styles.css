@@ -261,14 +261,14 @@ hr {
 
 .block,
 .block-vertical {
-  background-color: rgba(115, 165, 235, 0.4);
+  background-color: var(--block-background-color);
   padding-bottom: 10px;
   margin: 0px auto 30px;
   max-width: 90%;
 }
 
 .block-visit {
-  background-color: rgba(115, 165, 235, 0.4);
+  background-color: var(--block-background-color);
   margin-bottom: 30px;
 }
 
